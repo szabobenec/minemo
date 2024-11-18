@@ -35,8 +35,8 @@ function akGeneral(sor, oszlop, hova) {
 }
 
 function logika(akL, arany) {
-    let x = akL.length;
-    let y = akL[0].length;
+    let x = parseInt(akL.length);
+    let y = parseInt( akL[0].length);
     let akna = Math.floor(x * y * arany);
     let db = 0;
     while (db < akna) {
